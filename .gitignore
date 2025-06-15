@@ -1,0 +1,39 @@
+# Node.js dependencies (if using Node/npm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build output (for tools like Webpack, Parcel, etc.)
+dist/
+build/
+out/
+.tmp/
+.cache/
+.vite/
+.next/
+.svelte-kit/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code or other IDE settings
+.vscode/
+.idea/
+
+# Environment files (if using any API keys/secrets)
+.env
+.env.*.local
+
+# Coverage reports (for testing tools)
+coverage/
+
+# Optional: ignore compiled assets
+*.min.js
+*.min.css
